@@ -18,6 +18,7 @@ public class Main {
         newNote.setTitle(in.nextLine());
         System.out.println("Ingrese el contenido de la nota:");
         newNote.setContent(in.nextLine());
+        System.out.println("----------------------------------");
 
         list.NewNote(newNote);
 

@@ -17,7 +17,13 @@ public class List {
     }
 
     public void ShowNote(){
-        System.out.println(notesArrayList.get(0));
+        Note showNote=null;
+        for (int i=0;i<notesArrayList.size();i++){
+            showNote=notesArrayList.get(i);
+            System.out.println(showNote.getTitle());
+            System.out.println(showNote.getContent());
+            System.out.println(showNote.isActive());
+        }
     }
 
     public void DeleteNote(){
