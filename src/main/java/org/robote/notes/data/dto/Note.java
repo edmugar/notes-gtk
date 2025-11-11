@@ -1,9 +1,9 @@
-package org.robote.notes.dto;
+package org.robote.notes.data.dto;
 
 public class Note{
     private String Title;
     private String Content;
-    private boolean Active;
+    private boolean Active = true;
 
     public String getTitle() {
         return Title;

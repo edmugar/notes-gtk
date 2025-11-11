@@ -15,6 +15,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("com.github.bailuk:java-gtk:0.5.0")
+    implementation("org.xerial:sqlite-jdbc:3.50.2.0")
 }
 
 tasks.test {

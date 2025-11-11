@@ -1,6 +1,6 @@
 package org.robote.notes;
 
-import org.robote.notes.dto.Note;
+import org.robote.notes.data.dto.Note;
 
 import java.util.ArrayList;
 

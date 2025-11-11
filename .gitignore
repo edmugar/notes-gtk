@@ -43,3 +43,6 @@ target/
 
 ### Mac OS ###
 .DS_Store
+
+### Project files
+database.sql
